@@ -1,0 +1,25 @@
+Why is a tree appropriate for the doctor structure?
+
+A tree is appropriate for the doctor structure because
+it allows for software engineers to know which doctors
+are head of other doctors at whatever healthcare facility
+they are designing this system for. This also always makes for
+easier organization for the varied tiers of tenure in a healthcare setting.
+
+When might a software engineer use preorder, inorder, or postorder traversals?
+
+Software engineers would use these traversals depending on the task required.
+A Preorder method is generally best used when cloning or copying a tree. The
+Inorder method is said to be suited for sorted trees or mathematical expressions.
+Lastly, the Postorder method is typically used for deleting trees from the bottom
+up which allows less room for accidentally deleting a full tree when all that was
+needed was a node or two. These methods aid software engineers to easily build, sort,
+and remove data efficiently without concern for inconsistencies.
+
+How do heaps help simulate real-time systems like emergency intake?
+
+Heaps help computer programs manage real time decisions by organizing data based
+on priority. It allows for quick and repeated access to higher priorities and in this
+case they are needing to quickly retrieve patients. It also allows for queues to move
+faster because after it reviews the current highest priority, it will remove them from
+the queue and move to the next highest priority afterwards. 
